@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkgrey;
+  padding: 1.8em 3em;
+}
+
+body > .pageDescriptor {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkgray;
+  padding: 1.8em 3em;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+}
+.footerLinks > a {
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+.banner div {
+  flex: 0.5;
+}
+.qualitiesContainer > div {
+  flex: 0.333;
+}
+.recentContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.recentContainer > .items {
+  display: flex;
+  margin: 1em;
+}
+.contactForm form {
+  width: 71%;
+  position: relative;
+  margin: auto;
+}
+.socialLinks {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
+  position: relative;
+  margin: 4em auto;
+  justify-content: space-evenly;
+}
+.linksContainer {
+  display: flex;
+  align-items: center;
+}
+.linksContainer > h5 {
+  margin-left: 1em;
+}
+.project {
+  display: flex;
+  align-items: center;
+  margin: 3em;
+  justify-content: space-evenly;
+}
+.project img {
+  width: 100px;
+}
+.project h3 {
+  display: block;
+  width: 250px;
+}
+.aboutSection {
+  display: flex;
+}
+.aboutSection > div > img {
+  width: 100%;
+  flex: 0.5;
+}
+.aboutSection > div {
+  flex: 0.5;
+  margin: auto 2em;
+}
